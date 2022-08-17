@@ -1,6 +1,12 @@
 # ascii-art-web 
-Includes stylize and export-file
-Not all requirements for [good practices](https://github.com/01-edu/public/blob/master/subjects/good-practices/README.md) were met
+Includes stylize and export-file. Not all requirements for [good practices](https://github.com/01-edu/public/blob/master/subjects/good-practices/README.md) were met
+
+## Usage
+Open root foulder in console. Run this command:
+```
+$ go run cmd/main.go
+```
+Ctrl + Click the link from console.
 
 ### Objectives
 
