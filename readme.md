@@ -1,6 +1,5 @@
 # ascii-art-web 
-Includes stylize and export-file. Not all requirements for [good practices](https://github.com/01-edu/public/blob/master/subjects/good-practices/README.md) were met
-
+<img src="assets/demo.gif"></img>
 ## Usage
 Open root foulder in console. Run this command:
 ```
@@ -18,7 +17,7 @@ Your webpage must allow the use of the different banners:
 - standard
 - thinkertoy
 
-Implement the following HTTP endpoints:
+Implemented the following HTTP endpoints:
 
 1. GET `/`: Sends HTML response, the main page.\
    1.1. GET Tip: [go templates](https://golang.org/pkg/html/template/) to receive and display data from the server.

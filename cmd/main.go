@@ -102,7 +102,7 @@ func postArt(w http.ResponseWriter, r *http.Request) {
 	if r.Form["action"][0] == "download" {
 		w.Header().Set("Content-Type", "text/plain")
 		w.Header().Set("Content-Length", strconv.Itoa(len(string(out))))
-		w.Header().Set("Content-Disposition", "name='cmd/output.txt'; filename='code.txt'")
+		w.Header().Set("Content-Disposition", "name='cmd/output.txt'; filename=code.txt")
 		w.Write(out)
 		return
 	} else if r.Form["action"][0] == "submit" {
